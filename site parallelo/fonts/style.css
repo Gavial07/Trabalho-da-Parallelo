@@ -1,0 +1,46 @@
+body {
+    margin: 0; /* Remove as margens padrão do body */
+    padding: 0; 
+    display: flex; 
+    justify-content: center; 
+}
+
+nav {
+    display: flex; /* Define o contêiner nav como um Flexbox */
+    align-items: center; 
+    justify-content: space-between; 
+    width: 80%; 
+    max-width: 1480px; 
+    background-color: black; 
+    padding: 0 20px; 
+    position: fixed; /* Fixa a barra de navegação no topo da página */
+    top: 0; 
+}
+
+nav ul {
+    display: flex; /* Utiliza o Flexbox para organizar os itens em uma linha */
+    flex-direction: row; 
+    margin: 0;
+    padding: 0; 
+    list-style: none; 
+}
+
+nav ul li {
+    margin: 0 20px; /* Adiciona margem à esquerda e à direita de cada item da lista */
+    color: white; /* Define a cor do texto dos itens da lista como branco */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /* Define a fonte para os itens da lista */
+    padding: 0 10px; /* Adiciona preenchimento à direita e à esquerda de cada item da lista */
+}
+
+nav ul li:hover {
+    background-color: #44444444; 
+}
+
+nav #logo {
+    margin-right: 30px; 
+}
+
+nav #logo img {
+    height: 75px; /* Define a altura da imagem do logo */
+    margin: 25px; /* Adiciona margem ao redor da imagem do logo */
+}
